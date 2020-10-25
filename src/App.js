@@ -4,11 +4,12 @@ import HeroBanner from "./components/heroBanner";
 import Section from "./components/section";
 import BrandSection from "./components/brandSection";
 import AboutSection from "./components/aboutSection";
+import PaymentTile from "./components/paymentTile";
 import "./App.css";
 
 class App extends Component {
   state = {
-    title: "SOCIAL MEDIA ADS, DESIGN AND COPYWRITE",
+    title: "SOCIAL MEDIA ADS, DESIGN AND COPYWRITING",
     subTitle:
       "From Marketing Design Zero to Hero - Everything you need to maximize the potential of Social Media",
     benefits: [
@@ -29,6 +30,10 @@ class App extends Component {
       "You’ll know how to capture the attention of your audience with copy writing",
       "You’ll learn to market your skill on online platforms and start making money",
     ],
+    warrantee: [
+      "2-Day Money-Back Guarantee",
+      "You can ask for a refund any time during the first 2 days if you decide the course isn’t for you.",
+    ],
   };
 
   render() {
@@ -47,6 +52,11 @@ class App extends Component {
           audience={this.state.target}
           btn="Enroll"
         />
+        <BrandSection
+          title={this.state.warrantee[0]}
+          message={this.state.warrantee[1]}
+        />
+        <PaymentTile />
       </React.Fragment>
     );
   }

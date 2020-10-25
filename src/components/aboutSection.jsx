@@ -17,7 +17,7 @@ class AboutSection extends Component {
                         <Button title="Join us now"/>
                     </div>
                         
-                    <div id="break" className="col-12 col-lg p-2 align-self-center mx-auto">
+                    <div className="col-12 col-lg p-2 align-self-center mx-auto">
                         <div className='container-md dey-well'>
                             <BenefitsCard benefits={this.props.benefits}/>
                         </div>

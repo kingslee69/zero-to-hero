@@ -21,9 +21,9 @@ class HeroBanner extends Component {
                 {this.props.subTitle}
               </Header3>
 
-              <button id="cta" className="btn btn-sm d-flex mx-auto mt-3">
+              <a href="#enroll"><button id="cta" className="btn btn-sm d-flex mx-auto mt-3">
                 Enroll Now
-              </button>
+              </button></a>
 
               <div className=" icon mx-auto mt-5">
                 <img src={scroll} alt="scroll icon" />

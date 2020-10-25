@@ -36,6 +36,15 @@ export const Header2 = styled.p`
   text-align: center;
   color: #1b2a4d;
 `;
+export const Header2Dark = styled.p`
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #1b2a4d;
+`;
 export const Header3 = styled.p`
   font-family: Segoe UI;
   font-style: normal;
@@ -60,6 +69,36 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 185%;
+color: #869AB8;
+`;
+export const BodyCenter = styled.p`
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+font-size: 20px;
+line-height: 185%;
+color: #869AB8;
+`;
+export const BodyLight = styled.p`
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+font-size: 20px;
+line-height: 185%;
+color: #F1F4F8;
+`;
+export const BodyStrike = styled.p`
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+text-decoration: line-through;
+font-size: 20px;
+line-height: 185%;
+position: relative;
+top: -25px;
 color: #869AB8;
 `;
 export const BodyList = styled.ul`
