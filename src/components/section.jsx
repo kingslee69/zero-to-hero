@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Header2, Body} from "./css/style"
+import {Header2, BodyList} from "./css/style"
 
 class Section extends Component {
     render() {
@@ -11,11 +11,11 @@ class Section extends Component {
             }} className=" container-sm pt-5 my-0">
                 <div style={{maxWidth: '900px', overFlow: "hidden"}} className ="container p-2 framer mx-auto" >
                     <Header2>{this.props.title}</Header2>
-                    <Body >
+                    <BodyList >
                         <ul className=" conatiner-sm mx-5 align-self-end">
                             {this.props.audience.map(item => <li key={item}>{item}</li>)}
                         </ul>
-                    </Body>
+                    </BodyList>
                     {btn}
                 </div>
             </div>

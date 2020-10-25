@@ -3,7 +3,6 @@ import Benefit from "./benefit"
 class BenefitsCard extends Component {
     
     render() { 
-    console.log(this.props.benefits)
 
     return ( 
     <div>

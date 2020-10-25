@@ -26,7 +26,7 @@ class HeroBanner extends Component {
               </button>
 
               <div className=" icon mx-auto mt-5">
-                <img src={scroll} />
+                <img src={scroll} alt="scroll icon" />
               </div>
               
             </div>
