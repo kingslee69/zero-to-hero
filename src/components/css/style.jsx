@@ -62,7 +62,7 @@ font-size: 20px;
 line-height: 185%;
 color: #869AB8;
 `;
-export const BodyList = styled.li`
+export const BodyList = styled.ul`
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
