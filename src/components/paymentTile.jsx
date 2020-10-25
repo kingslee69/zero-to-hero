@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Header2Dark, Header3, BodyCenter, BodyStrike, BodyLight } from './css/style'
-import Button from "./button"
 
 class PaymentTile extends Component {
     render() {
@@ -18,11 +17,11 @@ class PaymentTile extends Component {
                             <Header2Dark><span style={{textDecoration: "line-through"}}>N</span>999</Header2Dark>
                             <BodyStrike>N10,000</BodyStrike>
                         </div>
-                        <a href="https://paystack.com/pay/zerotohero" style={{position: "relative", bottom: "40px"}}>
+                        <div style={{position: "relative", bottom: "40px"}}>
                                 <button id="cta" className="btn btn-sm d-flex mx-auto">
                                     Buy Now
                                 </button>
-                        </a>
+                        </div>
                 </a>
                     </div>
             </div>
