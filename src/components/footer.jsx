@@ -4,7 +4,7 @@ import logo from "../images/Binaview Logo.png"
 class Footer extends Component {
     render() { 
         return ( 
-            <div style={{backgroundColor: "#161C2D", position: "relative", top: -1}} className="container-fluid p-3">
+            <div style={{backgroundColor: "#161C2D"}} className="container-fluid p-3">
                 <p style={{color: "#869AB8", fontSize: '16px', lineHeight: '48px', fontWeight: 700,}}>Contributors</p>
 
                 <div  className="container row align-items-start mx-auto mt-4 ">
