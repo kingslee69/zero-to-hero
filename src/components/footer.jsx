@@ -12,8 +12,8 @@ class Footer extends Component {
                         
                         <p style={{color: "#869AB8", fontSize: '14px', lineHeight: '14px', fontWeight: 700,}}>UI Design</p>
                         
-                        <a href="https://twitter.com/igwe_ij?s=20" target="_blank"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Justus Igwe</p></a>
-                        <a href="https://twitter.com/nworiekingslee?s=20" target="_blank"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Nworie Kingsley</p></a>
+                        <a href="https://twitter.com/igwe_ij?s=20" target="_blank" rel="noopener noreferrer"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Justus Igwe</p></a>
+                        <a href="https://twitter.com/nworiekingslee?s=20" target="_blank"  rel="noopener noreferrer"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Nworie Kingsley</p></a>
                         
                         
                     </div>
@@ -21,7 +21,7 @@ class Footer extends Component {
                         
                         <p style={{color: "#869AB8", fontSize: '14px', lineHeight: '14px', fontWeight: 700,}} >Web Design</p>
                         
-                        <a href="https://twitter.com/nworiekingslee?s=20" target="_blank"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Nworie Kingsley</p></a>
+                        <a href="https://twitter.com/nworiekingslee?s=20" target="_blank"  rel="noopener noreferrer"><p style={{color: "#869AB8", fontSize: '12px', lineHeight: '14px', fontWeight: 400,}} className='ml-3'>Nworie Kingsley</p></a>
                         
                         
                     </div>

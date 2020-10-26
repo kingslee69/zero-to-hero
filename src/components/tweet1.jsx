@@ -25,11 +25,7 @@ const Tweet1 = ({msg}) => {
           October 19, 2020
         </a>
       </blockquote>{" "}
-      <script
-        async
-        src="https://platform.twitter.com/widgets.js"
-        charset="utf-8"
-      ></script>
+    
     </section>
   );
 };
