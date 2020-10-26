@@ -8,7 +8,7 @@ const Tweet1 = ({msg}) => {
   }, []);
 
   return (
-    <section className="twitterContainer  col-6 tweet-well">
+    <section className="twitterContainer  col-6 tweet-well mb-4">
      
      <blockquote className="twitter-tweet">
         <p lang="en" dir="ltr">

@@ -8,7 +8,7 @@ class TweetSection extends Component {
     render() {        
       
         return (
-            <div className="container-sm row framer mx-auto justify-content-around">
+            <div className="container-sm row mx-auto justify-content-around">
                 <Tweet1 />
                 <Tweet2 />
                 <Tweet3 />

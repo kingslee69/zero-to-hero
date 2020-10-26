@@ -8,7 +8,7 @@ const TweetContainer = ({msg}) => {
   }, []);
 
   return (
-    <section className="twitterContainer  col-6 tweet-well">
+    <section className="twitterContainer mb-4 col-6 tweet-well">
      
      <blockquote className="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/nworiekingslee?ref_src=twsrc%5Etfw">@Nworiekingslee</a> Kingsley a wonderful graphics designer and a great teacher</p>&mdash; Sirvikh (@sirvikh) <a href="https://twitter.com/sirvikh/status/1318225637170176000?ref_src=twsrc%5Etfw">October 19, 2020</a></blockquote>
       
