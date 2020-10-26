@@ -57,6 +57,10 @@
 .dey-well {
   max-width: 400px !important;
 }
+.tweet-well {
+  max-width: 600px !important;
+  min-width: 360px !important;
+}
 
 .tile-well {
   max-width: 300px !important;
@@ -94,8 +98,7 @@ a {
 .tile {
   height: 400px;
   margin-top: 100px;
-  /* position: relative;
-  top: 80px; */
+
   border-radius: 30px;
   transition: all 0.3s linear;
 }

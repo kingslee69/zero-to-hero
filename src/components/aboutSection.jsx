@@ -20,7 +20,7 @@ class AboutSection extends Component {
                             {'This webinar is going to be taught by two professionals, one of them who happens to be a top rated copywriter, and the other who is also a top rated freelance graphics designer. We put this course together to educate small business managers on how to design and craft amazing ads on social media by themselves. Not to mention that learning this course will save you a ton of money.'}
                         </Body>
                         <Body>
-                            {"However, this course is not entirely unrestricted, there is a downside. We will be taking only 30 students for this course to make sure we interact with every student and share our knowledge effectively. This course was put together as a way to give back to small businesses that hired us when we first started out in our respective niches, you don’t want to miss out on this opportunity. "}
+                            {"However, this course is not entirely unrestricted, there's room for 30 students only for this course to make sure we interact with every student and share our knowledge effectively. This course was put together as a way to give back to small businesses that hired us when we first started out in our respective niches, you don’t want to miss out on this opportunity. "}
                         </Body>
                         <Button title="Join us now"/>
                     </div>

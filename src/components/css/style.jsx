@@ -22,7 +22,7 @@ export const Header1 = styled.p`
   font-style: normal;
   font-weight: 900;
   font-size: 42px;
-  line-height: 70px;
+  line-height: 55px;
   text-align: center;
   color: #f9fbfd;
 `;
@@ -49,8 +49,8 @@ export const Header3 = styled.p`
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
-  line-height: 48px;
+  font-size: 25px;
+  line-height: 38px;
   text-align: center;
   color: #f9fbfd;
 `;
@@ -85,7 +85,7 @@ font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
 text-align: center;
-font-size: 20px;
+font-size: 18px;
 line-height: 185%;
 color: #F1F4F8;
 `;

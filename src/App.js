@@ -4,6 +4,7 @@ import HeroBanner from "./components/heroBanner";
 import Section from "./components/section";
 import BrandSection from "./components/brandSection";
 import AboutSection from "./components/aboutSection";
+import TweetSection from "./components/tweetSection";
 import PaymentTile from "./components/paymentTile";
 import Footer from "./components/footer";
 import "./App.css";
@@ -55,6 +56,7 @@ class App extends Component {
           audience={this.state.target}
           btn="Enroll"
         />
+        <TweetSection />
         <BrandSection
           title={this.state.warrantee[0]}
           message={this.state.warrantee[1]}
