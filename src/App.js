@@ -56,7 +56,7 @@ class App extends Component {
           audience={this.state.target}
           btn="Enroll"
         />
-        <TweetSection />
+        {/* <TweetSection /> */}
         <BrandSection
           title={this.state.warrantee[0]}
           message={this.state.warrantee[1]}
