@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import {Header2, BodyList} from "./css/style"
+import Button from "./button"
 
 class Section extends Component {
     render() {
-        const btn =this.props.btn? <a href="#enroll"><button id="cta" className="btn btn-sm d-flex mx-auto my-4">
-                 {this.props.btn}
-            </button></a> : " ";
+        const btn =this.props.btn? <Button title = {this.props.btn}/> : " ";
         return (
             <div style={{backgroundColor: '#F1F4F8'
             }} className=" container-sm pt-5 my-0">

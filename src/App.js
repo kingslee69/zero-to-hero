@@ -5,6 +5,7 @@ import Section from "./components/section";
 import BrandSection from "./components/brandSection";
 import AboutSection from "./components/aboutSection";
 import PaymentTile from "./components/paymentTile";
+import Footer from "./components/footer";
 import "./App.css";
 
 class App extends Component {
@@ -16,19 +17,21 @@ class App extends Component {
       "BEGINNER TO INTERMEDIATE",
       "6DAYS INTENSIVE TRAINING",
       "NO FLUFF",
-      "DOWNLOADABLE",
+      "INTERACTIVE CLASSES",
+      "DOWNLOADABLES",
       "ACCESS ON MOBILE/PC",
       "REAL WORLD PROJECT",
     ],
+
     audience: [
-      "Anyone who wants to learn graphics for the first time.",
-      "Startup entrepreneurs who wants to be productive in their marketing campaigns",
+      "Anyone who wants to learn graphics design enough to create attractive ads.",
+      "Startup entrepreneurs who wants to be productive in their online marketing campaigns.",
       "Anyone who wants to brush up his/her skill as a social media marketer.",
     ],
     target: [
-      "Create productive marketing contents using canva",
-      "You’ll know how to capture the attention of your audience with copy writing",
-      "You’ll learn to market your skill on online platforms and start making money",
+      "Create productive marketing contents using canva.",
+      "You’ll know how to capture the attention of your audience with copy writing.",
+      "You’ll learn to market your skill on online platforms and start making money.",
     ],
     warrantee: [
       "2-Day Money-Back Guarantee",
@@ -57,6 +60,7 @@ class App extends Component {
           message={this.state.warrantee[1]}
         />
         <PaymentTile />
+        <Footer />
       </React.Fragment>
     );
   }

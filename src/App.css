@@ -98,12 +98,10 @@ a {
   top: 80px; */
   border-radius: 30px;
   transition: all 0.3s linear;
-  border: #d9e2ef 3px solid;
 }
 
 .tile:hover {
   box-shadow: 4px 8px 19px rgba(4, 4, 0, 0.14);
-  border: #e82a91 3px solid;
 }
 
 @keyframes App-logo-spin {

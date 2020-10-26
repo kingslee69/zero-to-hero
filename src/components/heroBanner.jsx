@@ -4,13 +4,14 @@ import {
     Header1,
     Header3
   } from "./css/style";
-  import scroll from "../images/down.png";
+import Button from "./button"
+import scroll from "../images/down.png";
 
   import '../App.css'
 
 class HeroBanner extends Component {
     render() { 
-        return ( <HeaderImage className="">
+        return ( <HeaderImage >
             <div className="container framer" >
 
               <Header1 className="py">
@@ -21,9 +22,7 @@ class HeroBanner extends Component {
                 {this.props.subTitle}
               </Header3>
 
-              <a href="#enroll"><button id="cta" className="btn btn-sm d-flex mx-auto mt-3">
-                Enroll Now
-              </button></a>
+              <Button title="Enroll Now"/>
 
               <div className=" icon mx-auto mt-5">
                 <img src={scroll} alt="scroll icon" />

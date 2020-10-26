@@ -4,12 +4,12 @@ import { Header2Dark, Header3, BodyCenter, BodyStrike, BodyLight } from './css/s
 class PaymentTile extends Component {
     render() {
         return (
-            <div style={{ backgroundColor: "#1B2A4D"}} className="container-fluid p-5">
+            <div  id="enroll" style={{ backgroundColor: "#1B2A4D"}} className="container-fluid p-5">
                 <div style={{position: "relative", top: "30px"}}>
                     <Header3>Social media marketing is a highly-demanded skill in the job market!</Header3>
                     <BodyLight>With our amazing reviews and money back guarantee, what are you waiting for?</BodyLight>
                 </div>
-                    <div id="enroll" className=" bg-light tile-well mx-auto tile p-0 ">
+                    <div className=" bg-light tile-well mx-auto tile p-0 ">
                 <a href="https://paystack.com/pay/zerotohero">
                         <div className="p-4">
                             <Header2Dark>Join the Webinar</Header2Dark>
@@ -18,6 +18,7 @@ class PaymentTile extends Component {
                             <BodyStrike>N10,000</BodyStrike>
                         </div>
                         <div style={{position: "relative", bottom: "40px"}}>
+                        <p style={{position: "absolute",left: "70px", top: "-20px", color: "#1B2A4D", fontSize: '12px', lineHeight: '15px', fontWeight: 400,}} className='ml-3'>Limited time at this price.</p>
                                 <button id="cta" className="btn btn-sm d-flex mx-auto">
                                     Buy Now
                                 </button>

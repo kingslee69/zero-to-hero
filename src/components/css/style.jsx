@@ -21,7 +21,7 @@ export const Header1 = styled.p`
   font-family: Segoe UI;
   font-style: normal;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 70px;
   text-align: center;
   color: #f9fbfd;
@@ -31,8 +31,8 @@ export const Header2 = styled.p`
   font-family: Segoe UI;
   font-style: normal;
   font-weight: 600;
-  font-size: 42px;
-  line-height: 70px;
+  font-size: 35px;
+  line-height: 65px;
   text-align: center;
   color: #1b2a4d;
 `;
@@ -49,7 +49,7 @@ export const Header3 = styled.p`
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 48px;
   text-align: center;
   color: #f9fbfd;
@@ -67,7 +67,7 @@ export const Body = styled.p`
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 18px;
 line-height: 185%;
 color: #869AB8;
 `;
@@ -135,7 +135,7 @@ export const BenefitText =styled.p`
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 18px;
 line-height: 185%;
 color: #1B2A4D;
 `
