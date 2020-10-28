@@ -17,7 +17,7 @@ class PaymentTile extends Component {
                                 <Header2Dark><span style={{textDecoration: "line-through"}}>N</span>999</Header2Dark>
                                 <BodyStrike>N10,000</BodyStrike>
                             </div>
-                            <div style={{position: "relative", bottom: "40px"}}>
+                            <div style={{position: "relative", bottom: "65px"}}>
                             <p style={{ color: "#1B2A4D", fontSize: '12px', lineHeight: '30px', fontWeight: 400, marginBottom: 2,}} className='text-align-center'>Limited time at this price.</p>
                                     <button id="cta" className="btn btn-sm d-flex mx-auto mb-3 pay ">
                                         Buy Now
