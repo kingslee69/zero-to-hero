@@ -11,16 +11,16 @@ class AboutSection extends Component {
                     <div className="container-sm col-12 col-xl-8 m-2 mb-5 row px-md-5">
                         <Header2>About</Header2>
                         <Body>
-                        {'90% discount alert, now you can learn copywriting & marketing design for N999. You read that right, Christmas came early!'}
+                        {'In this evolving age of technology, people are getting used to quick methods. You have a little over 5 seconds to hold the attention of any potential customer. This is why your write up and graphics must be great in order to convert customers more effectively on social media.'}
                         </Body>
                         <Body>
-                            {'The zerotohero webinar is an online course where interested entrepreneurs and managers can learn how to design ads with Canva (A free graphics design tool), and write killer copies that will make your target customer whip out their credit cards and pay before scrolling past your ad.'}
+                            {'This webinar will be taught by two professionals, a top rated copywriter and a freelance graphics designer. This course was put together to educate small business managers on clever ways to craft and design productive ads. You should also know that this skill saves you tons of money in the long run.'}
                         </Body>
                         <Body>
-                            {'This webinar is going to be taught by two professionals, one of them who happens to be a top rated copywriter, and the other who is also a top rated freelance graphics designer. We put this course together to educate small business managers on how to design and craft amazing ads on social media by themselves. Not to mention that learning this course will save you a ton of money.'}
+                            {'However the 90% discount will last for just 3 days, after which the enrollment fee returns to its original price, N10,000.'}
                         </Body>
                         <Body>
-                            {"However, this course is not entirely unrestricted, there's room for 30 students only for this course to make sure we interact with every student and share our knowledge effectively. This course was put together as a way to give back to small businesses that hired us when we first started out in our respective niches, you don’t want to miss out on this opportunity. "}
+                            {"The Zero To Hero course was created as a way to give back to small businesses that hired us when we first started out in our respective niches. This was made for you, you don't want to miss out on this opportunity."}
                         </Body>
                         <Button title="Join us now"/>
                     </div>

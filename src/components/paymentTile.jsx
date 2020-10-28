@@ -13,16 +13,16 @@ class PaymentTile extends Component {
                     <a href="https://paystack.com/pay/zerotohero">
                         <div className="p-4">
                                 <Header2Dark>Join the Webinar</Header2Dark>
-                                <BodyCenter>Maximize the potential of social media</BodyCenter>
+                                <BodyCenter>Create Productive Designs</BodyCenter>
                                 <Header2Dark><span style={{textDecoration: "line-through"}}>N</span>999</Header2Dark>
                                 <BodyStrike>N10,000</BodyStrike>
                             </div>
-                            <div style={{position: "relative", bottom: "50px"}}>
-                            <p style={{ color: "#1B2A4D", fontSize: '12px', lineHeight: '15px', fontWeight: 400, marginBottom: 2,}} className='text-align-center'>Limited time at this price.</p>
-                                    <button id="cta" className="btn btn-sm d-flex mx-auto mb-3">
+                            <div style={{position: "relative", bottom: "40px"}}>
+                            <p style={{ color: "#1B2A4D", fontSize: '12px', lineHeight: '30px', fontWeight: 400, marginBottom: 2,}} className='text-align-center'>Limited time at this price.</p>
+                                    <button id="cta" className="btn btn-sm d-flex mx-auto mb-3 pay ">
                                         Buy Now
                                     </button>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', fontWeight: 700, color: "#e82a91"}} className='text-align-center mt-4 '>#endSARS</p>
+                            <p style={{ fontSize: '10px', lineHeight: '15px', fontWeight: 700, color: "#e82a91"}} className='text-align-center m-4 p-1'>#endSARS</p>
                         </div>
                     </a>
                 </div>
