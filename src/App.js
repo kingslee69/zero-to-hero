@@ -57,15 +57,15 @@ class App extends Component {
           btn="Enroll"
         />
         <TweetSection />
-        <BrandSection
-          title="When will this Webinar Start and End?"
-          message="It starts on Monday 9th of November, 2020 and ends in a week time. The venue for the webinar will be in a whatsApp group and you will be taken straight to it on payment completion."
-        />
         <Gap />
         <BrandSection
+          title="When will this Webinar Start and End?"
+          message="It starts on Monday 9th of November, 2020 and ends in a week time. The venue for the webinar will be on Telegram. Enroll now to join us."
+        />
+        {/* <BrandSection
           title={this.state.warrantee[0]}
           message={this.state.warrantee[1]}
-        />
+        /> */}
         <PaymentTile />
         <Footer />
       </React.Fragment>

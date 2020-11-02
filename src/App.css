@@ -63,7 +63,7 @@
 }
 
 .tile-well {
-  max-width: 300px !important;
+  max-width: 270px !important;
 }
 
 .text-align-center {
@@ -77,26 +77,29 @@ a {
 #cta {
   padding: 7px 50px;
   border-radius: 50px;
-  background-color: #e82a91;
-  color: white;
+
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 27px;
   transition: all 0.3s linear;
-  border: #e82a91 2px solid;
-}
 
-.pay {
-  padding: 10px 70px !important;
-}
-
-#cta:hover {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.14);
   background-color: white;
   color: #e82a91;
-  translate: 2px;
+  border: #e82a91 2px solid;
+}
+
+#cta:hover {
+  background-color: #e82a91;
+  color: white;
+  transform: translate(0px, -2px);
+  box-shadow: none;
+}
+
+.pay {
+  padding: 10px 60px !important;
 }
 
 .tile {
@@ -109,6 +112,14 @@ a {
 
 .tile:hover {
   box-shadow: 4px 8px 19px rgba(4, 4, 0, 0.14);
+  transform: translate(0px, -8px);
+}
+
+.tile:hover #cta {
+  background-color: #e82a91;
+  color: white;
+  transform: translate(0px, -2px);
+  box-shadow: none;
 }
 
 .gap {

@@ -1,28 +1,29 @@
 import React, { Component} from 'react';
 import {Header2, Body} from './css/style'
-import Button from './button'
 import BenefitsCard from './benefitsCard';
 
 class AboutSection extends Component {
     render() { 
         return ( 
             <div style={{ overflowX: 'hidden'}} className="container-fluid">
-                <div className="row align-items-center">
-                    <div className="container-sm col-12 col-xl-8 m-2 mb-5 row px-md-5">
+                <div className="row ">
+                    <div className="container-sm col-12 col-xl-8 m-2 mb-5 px-md-5">
                         <Header2>About</Header2>
                         <Body>
-                        {'In this evolving age of technology, people are getting used to quick methods. You have a little over 5 seconds to hold the attention of any potential customer. This is why your write up and graphics must be great in order to convert customers more effectively on social media.'}
+                        {'There are only very few things in this world that are better than a FREE online webinar. This is why you must not miss the ZerotoHero FREE 6-Days of Social Media Marketing online webinar on the 9th of November.'}
                         </Body>
                         <Body>
-                            {'This webinar will be taught by two professionals, a top rated copywriter and a freelance graphics designer. This course was put together to educate small business managers on clever ways to craft and design productive ads. You should also know that this skill saves you tons of money in the long run.'}
+                            {'Our aim is to teach small business owners and marketers how to write persuasive/clever copies, and also make designs that will convert leads to sales on social media.'}
                         </Body>
                         <Body>
-                            {'However the 90% discount will last for just 3 days, after which the enrollment fee returns to its original price, N10,000.'}
+                            {'The first two days are totally free! You get the full package with no commitments whatsoever. Enroll now to start converting more people with your social media ads.'}
                         </Body>
                         <Body>
-                            {"The Zero To Hero course was created as a way to give back to small businesses that hired us when we first started out in our respective niches. This was made for you, you don't want to miss out on this opportunity."}
+                            {"Begin the process of expanding your business today!"}
                         </Body>
-                        <Button title="Join us now"/>
+                        <a href="#enroll"><button id="cta" className="btn btn-sm my-4">
+                        Join us now
+                        </button></a>
                     </div>
                         
                     <div style={{position:"ralative", top: "-40px"}} className="col-12 col-md align-self-center mx-sm-5 py-4">
